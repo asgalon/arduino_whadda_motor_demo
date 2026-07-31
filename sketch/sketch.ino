@@ -19,6 +19,7 @@ int motorDelay = 1200; //variable to set stepper speed
 int count = 0; // count of steps made
 int countsperrev = 512; // number of steps per full revolution
 // lookup motor activation patterns.
+// This activates the ywo windings in the right sequence and direction to turn the motor 1/8 turn at a time
 int lookup[8] = {B01000, B01100, B00100, B00110, B00010, B00011, B00001, B01001};
 //////////////////////////////////////////////////////////////////////////////
 
